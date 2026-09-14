@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Ritheareach Chan — Robotics Engineer and AI Builder · Phnom Penh, Cambodia">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Ritheareach Chan — AI Engineer · AI software &amp; solutions · Phnom Penh, Cambodia">
   <defs>
     <style>
       @font-face{font-family:'Space Grotesk';font-style:normal;font-weight:700;src:url(data:font/woff2;base64,{{SG700}}) format('woff2');}
@@ -46,7 +46,7 @@
     <rect x="52" y="60" width="4" height="20" rx="2" fill="#E7A63F"/>
     <text x="72" y="76" font-family="'JetBrains Mono',ui-monospace,Menlo,monospace" font-size="15.5" font-weight="500" letter-spacing="1.2" fill="#8B95A1">PHNOM PENH, CAMBODIA · 11.5564°N 104.9282°E</text>
     <text x="72" y="194" font-family="'Space Grotesk','Segoe UI',Helvetica,Arial,sans-serif" font-size="80" font-weight="700" letter-spacing="2" fill="#F1EDE4">RITHEAREACH CHAN</text>
-    <text x="72" y="236" font-family="'Space Grotesk','Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="500" fill="#C6CBD2">Robotics engineer &amp; AI builder</text>
-    <text x="72" y="270" font-family="'JetBrains Mono',ui-monospace,Menlo,monospace" font-size="15.5" font-weight="500" letter-spacing="1.2" fill="#8B95A1">ROS 2 · MOVEIT · UNITREE G1 · YOLO11 · TENSORRT · JETSON · LEROBOT</text>
+    <text x="72" y="236" font-family="'Space Grotesk','Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="500" fill="#C6CBD2">AI engineer — building AI software &amp; solutions</text>
+    <text x="72" y="270" font-family="'JetBrains Mono',ui-monospace,Menlo,monospace" font-size="15.5" font-weight="500" letter-spacing="1.2" fill="#8B95A1">PYTHON · PYTORCH · YOLO · DEEPSTREAM · TENSORRT · LLM AGENTS · MCP · RAG</text>
   </g>
 </svg>

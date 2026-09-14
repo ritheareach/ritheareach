@@ -8,6 +8,7 @@ Outputs: assets/hero-dark.svg, assets/hero-light.svg
 import base64
 import html
 import re
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 from fontTools.ttLib import TTFont
@@ -72,6 +73,12 @@ def main() -> None:
         svg = svg.replace("{{SG700}}", sg700).replace("{{SG500}}", sg500).replace("{{JB500}}", jb500)
         out = ASSETS / name
         out.write_text(svg)
+        # SVG must be well-formed XML or browsers/GitHub silently fail to render it
+        try:
+            ET.parse(out)
+        except ET.ParseError as exc:
+            out.unlink(missing_ok=True)
+            raise SystemExit(f"INVALID XML in {out}: {exc}")
         print(f"wrote {out} ({out.stat().st_size // 1024} KB)")
 
 
