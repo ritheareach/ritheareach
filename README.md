@@ -22,13 +22,9 @@ I build AI software and solutions — computer vision, AI agents, and the automa
 - **Deployment** — Linux (desktop & embedded) · Jetson · Docker · real-time streaming · mDNS / DDS
 - **Robotics platforms** — ROS 2 · MoveIt / MTC · Unitree G1 / Dex3 · RealSense RGB-D
 
-### <samp>03 / PUBLIC CODE</samp>
+### <samp>03 / CODE</samp>
 
-Most of my production work sits in private repos — what's open:
-
-- **[AsterCaeser](https://github.com/ritheareach/AsterCaeser)** — self-hosted AI workspace: chat, agents, research, documents, local model workflows.
-- **[adtech-smart-utility](https://github.com/ritheareach/adtech-smart-utility)** — Flutter app for smart-utility accounts (usage, bills, PayWay payments) on a Node.js / Express + PostgreSQL backend.
-- **[comnyang-lucy](https://github.com/ritheareach/comnyang-lucy)** — OpenCode agent wired into the Comnyang desktop cat.
+Most of my work lives in private repositories — production systems at AI Farm Robotics and client builds. This GitHub is where tools and experiments land when they are ready to share.
 
 ### <samp>04 / CONTACT</samp>
 

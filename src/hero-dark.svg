@@ -1,52 +1,57 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Ritheareach Chan — AI Engineer · AI software &amp; solutions · Phnom Penh, Cambodia">
   <defs>
     <style>
-      @font-face{font-family:'Space Grotesk';font-style:normal;font-weight:700;src:url(data:font/woff2;base64,{{SG700}}) format('woff2');}
-      @font-face{font-family:'Space Grotesk';font-style:normal;font-weight:500;src:url(data:font/woff2;base64,{{SG500}}) format('woff2');}
-      @font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:500;src:url(data:font/woff2;base64,{{JB500}}) format('woff2');}
+      @font-face{font-family:'Inter';font-style:normal;font-weight:700;src:url(data:font/woff2;base64,{{SANS700}}) format('woff2');}
+      @font-face{font-family:'Inter';font-style:normal;font-weight:500;src:url(data:font/woff2;base64,{{SANS500}}) format('woff2');}
+      @font-face{font-family:'Courier Prime';font-style:normal;font-weight:700;src:url(data:font/woff2;base64,{{MONO700}}) format('woff2');}
     </style>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#141B23"/>
-      <stop offset="1" stop-color="#0B0E12"/>
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#010409"/>
     </linearGradient>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M48 0H0V48" fill="none" stroke="#8B95A1" stroke-width="1" opacity="0.30"/>
+      <path d="M48 0H0V48" fill="none" stroke="#7d8590" stroke-width="1" opacity="0.28"/>
     </pattern>
     <clipPath id="card"><rect x="0.75" y="0.75" width="1278.5" height="318.5" rx="14"/></clipPath>
   </defs>
 
-  <rect x="0.75" y="0.75" width="1278.5" height="318.5" rx="14" fill="url(#bg)" stroke="#25303A" stroke-width="1.5"/>
+  <rect x="0.75" y="0.75" width="1278.5" height="318.5" rx="14" fill="url(#bg)" stroke="#30363d" stroke-width="1.5"/>
 
   <g clip-path="url(#card)">
-    <rect width="1280" height="320" fill="url(#grid)" opacity="0.26"/>
+    <rect width="1280" height="320" fill="url(#grid)" opacity="0.18"/>
 
-    <g transform="translate(1120 154)" fill="none" stroke="#7E8A96">
-      <circle r="32" opacity="0.50"/>
-      <circle r="64" opacity="0.42"/>
-      <circle r="96" opacity="0.34"/>
-      <circle r="128" opacity="0.24"/>
-      <path d="M-132 0H132 M0 -132V132" opacity="0.26" stroke-dasharray="2 7"/>
-      <path d="M16 0H128" stroke="#E7A63F" stroke-width="1.5" opacity="0.50" transform="rotate(-42)"/>
+    <g transform="translate(1120 160)">
+      <circle r="136" fill="#17243a" opacity="0.55" stroke="none"/>
+      <g fill="none" stroke="#30363d">
+        <circle r="32" opacity="1"/>
+        <circle r="64" opacity="0.85"/>
+        <circle r="96" opacity="0.70"/>
+      </g>
+      <circle r="128" fill="none" stroke="#4a84fe" opacity="0.30"/>
+      <path d="M-132 0H132 M0 -132V132" fill="none" stroke="#7d8590" opacity="0.35" stroke-dasharray="2 7"/>
+      <path d="M16 0H128" fill="none" stroke="#4a84fe" stroke-width="1.5" opacity="0.60" transform="rotate(-42)"/>
     </g>
 
-    <g fill="#E7A63F">
+    <g fill="#4a84fe">
       <circle cx="1221" cy="75" r="7" opacity="0.15"/>
       <circle cx="1221" cy="75" r="2.6" opacity="0.95"/>
+      <circle cx="1188" cy="228" r="5" opacity="0.12"/>
+      <circle cx="1188" cy="228" r="2" opacity="0.75"/>
       <circle cx="1066" cy="188" r="6" opacity="0.12"/>
       <circle cx="1066" cy="188" r="2.2" opacity="0.85"/>
     </g>
 
-    <g stroke="#E7A63F" stroke-width="1.2" opacity="0.35">
+    <g stroke="#4a84fe" stroke-width="1.2" opacity="0.55">
       <path d="M33 40h14M40 33v14"/>
       <path d="M1233 40h14M1240 33v14"/>
       <path d="M33 280h14M40 273v14"/>
       <path d="M1233 280h14M1240 273v14"/>
     </g>
 
-    <rect x="52" y="60" width="4" height="20" rx="2" fill="#E7A63F"/>
-    <text x="72" y="76" font-family="'JetBrains Mono',ui-monospace,Menlo,monospace" font-size="15.5" font-weight="500" letter-spacing="1.2" fill="#8B95A1">PHNOM PENH, CAMBODIA · 11.5564°N 104.9282°E</text>
-    <text x="72" y="194" font-family="'Space Grotesk','Segoe UI',Helvetica,Arial,sans-serif" font-size="80" font-weight="700" letter-spacing="2" fill="#F1EDE4">RITHEAREACH CHAN</text>
-    <text x="72" y="236" font-family="'Space Grotesk','Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="500" fill="#C6CBD2">AI engineer — building AI software &amp; solutions</text>
-    <text x="72" y="270" font-family="'JetBrains Mono',ui-monospace,Menlo,monospace" font-size="15.5" font-weight="500" letter-spacing="1.2" fill="#8B95A1">PYTHON · PYTORCH · YOLO · DEEPSTREAM · TENSORRT · LLM AGENTS · MCP · RAG</text>
+    <rect x="52" y="54" width="4" height="20" rx="2" fill="#4a84fe"/>
+    <text x="72" y="70" font-family="'Courier Prime',ui-monospace,Menlo,monospace" font-size="15.5" font-weight="700" letter-spacing="1" fill="#7d8590">PHNOM PENH, CAMBODIA · 11.5564°N 104.9282°E</text>
+    <text x="72" y="186" font-family="'Inter','Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="2" fill="#e6edf3">RITHEAREACH CHAN</text>
+    <text x="72" y="228" font-family="'Inter','Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="24" font-weight="500" fill="#e6edf3" fill-opacity="0.82">AI engineer — building AI software &amp; solutions</text>
+    <text x="72" y="266" font-family="'Courier Prime',ui-monospace,Menlo,monospace" font-size="15.5" font-weight="700" letter-spacing="1" fill="#7d8590">PYTHON · PYTORCH · YOLO · DEEPSTREAM · TENSORRT · LLM AGENTS · MCP · RAG</text>
   </g>
 </svg>

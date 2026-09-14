@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Build the profile hero SVGs: extract used glyphs, subset fonts, embed as data URIs.
 
-Inputs:  src/hero-dark.svg, src/hero-light.svg  (templates with {{SG700}}/{{SG500}}/{{JB500}})
-Fonts:   /tmp/SpaceGrotesk.ttf, /tmp/JetBrainsMono.ttf  (variable, OFL)
+Style: Nous (Hermes desktop theme) — GitHub neutrals + Nous blue.
+Fonts:  Inter (sans) + Courier Prime (mono), both OFL, embedded as subsets.
+Inputs:  src/hero-dark.svg, src/hero-light.svg  ({{SANS700}}/{{SANS500}}/{{MONO400}})
 Outputs: assets/hero-dark.svg, assets/hero-light.svg
 """
 import base64
@@ -21,10 +22,14 @@ ASSETS = ROOT / "assets"
 WORK = ROOT / ".build"
 WORK.mkdir(exist_ok=True)
 
-SG = "/tmp/SpaceGrotesk.ttf"
-JB = "/tmp/JetBrainsMono.ttf"
-
 TEMPLATES = ["hero-dark.svg", "hero-light.svg"]
+
+# token -> (source ttf, instance axes or None for a static font)
+FONTS = {
+    "SANS700": ("/tmp/Inter.ttf", {"wght": 700, "opsz": 32}),
+    "SANS500": ("/tmp/Inter.ttf", {"wght": 500, "opsz": 20}),
+    "MONO700": ("/tmp/CourierPrime-Bold.ttf", None),
+}
 
 
 def used_chars() -> str:
@@ -36,41 +41,48 @@ def used_chars() -> str:
     return "".join(sorted(chars))
 
 
-def subset_font(variable_ttf: str, weight: int, text: str, out_path: Path) -> bytes:
-    inst = TTFont(variable_ttf)
-    static = instantiateVariableFont(inst, {"wght": weight}, inplace=True)
-    tmp = WORK / f"{out_path.stem}-{weight}.ttf"
-    static.save(tmp)
+def build_font(token: str, text: str) -> str:
+    """Instance (if variable), subset to `text`, return base64 woff2."""
+    src, axes = FONTS[token]
+    font = TTFont(src)
 
+    missing = sorted({c for c in text if ord(c) not in font.getBestCmap()})
+    if missing:
+        raise SystemExit(f"{token}: font lacks glyphs {missing!r} — pick another face or change the copy")
+
+    work_file = WORK / f"{token.lower()}.ttf"
+    if axes and "fvar" in font:
+        instantiateVariableFont(font, axes, inplace=True)
+    font.save(work_file)
+
+    out = WORK / f"{token.lower()}.woff2"
     opts = subset.Options()
     opts.flavor = "woff2"
     opts.hinting = False
     opts.layout_features = ["kern", "liga", "calt"]
     opts.notdef_outline = True
-    font = subset.load_font(str(tmp), opts)
+    sub = subset.load_font(str(work_file), opts)
     ss = subset.Subsetter(options=opts)
     ss.populate(text=text)
-    ss.subset(font)
-    subset.save_font(font, str(out_path), opts)
-    return out_path.read_bytes()
-
-
-def b64(data: bytes) -> str:
-    return base64.b64encode(data).decode()
+    ss.subset(sub)
+    subset.save_font(sub, str(out), opts)
+    return base64.b64encode(out.read_bytes()).decode()
 
 
 def main() -> None:
     text = used_chars()
     print(f"glyph set ({len(text)} chars): {text!r}")
 
-    sg700 = b64(subset_font(SG, 700, text, WORK / "sg700.woff2"))
-    sg500 = b64(subset_font(SG, 500, text, WORK / "sg500.woff2"))
-    jb500 = b64(subset_font(JB, 500, text, WORK / "jb500.woff2"))
-    print(f"sizes: sg700={len(sg700)//1024}KB sg500={len(sg500)//1024}KB jb500={len(jb500)//1024}KB (base64)")
+    payload = {token: build_font(token, text) for token in FONTS}
+    for token, data in payload.items():
+        print(f"  {token}: {len(data) // 1024} KB (base64)")
 
     for name in TEMPLATES:
         svg = (SRC / name).read_text()
-        svg = svg.replace("{{SG700}}", sg700).replace("{{SG500}}", sg500).replace("{{JB500}}", jb500)
+        for token, data in payload.items():
+            svg = svg.replace(f"{{{{{token}}}}}", data)
+        if "{{" in svg:
+            raise SystemExit(f"{name}: unreplaced token remains")
         out = ASSETS / name
         out.write_text(svg)
         # SVG must be well-formed XML or browsers/GitHub silently fail to render it
