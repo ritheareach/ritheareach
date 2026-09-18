@@ -5,51 +5,17 @@
       @font-face{font-family:'Inter';font-style:normal;font-weight:500;src:url(data:font/woff2;base64,{{SANS500}}) format('woff2');}
       @font-face{font-family:'Courier Prime';font-style:normal;font-weight:700;src:url(data:font/woff2;base64,{{MONO700}}) format('woff2');}
     </style>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#f6f8fa"/>
-    </linearGradient>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M48 0H0V48" fill="none" stroke="#1f2328" stroke-width="1" opacity="0.22"/>
-    </pattern>
     <clipPath id="card"><rect x="0.75" y="0.75" width="1278.5" height="318.5" rx="14"/></clipPath>
   </defs>
-
-  <rect x="0.75" y="0.75" width="1278.5" height="318.5" rx="14" fill="url(#bg)" stroke="#d0d7de" stroke-width="1.5"/>
-
+  <rect x="0.75" y="0.75" width="1278.5" height="318.5" rx="14" fill="#dce7e2" stroke="#b7c9c1" stroke-width="1.5"/>
   <g clip-path="url(#card)">
-    <rect width="1280" height="320" fill="url(#grid)" opacity="0.16"/>
-
-    <g transform="translate(1120 160)">
-      <circle r="136" fill="#e3edff" opacity="0.60" stroke="none"/>
-      <g fill="none" stroke="#c4ced8">
-        <circle r="32" opacity="1"/>
-        <circle r="64" opacity="0.9"/>
-        <circle r="96" opacity="0.8"/>
-      </g>
-      <circle r="128" fill="none" stroke="#0053fd" opacity="0.30"/>
-      <path d="M-132 0H132 M0 -132V132" fill="none" stroke="#656d76" opacity="0.40" stroke-dasharray="2 7"/>
-      <path d="M16 0H128" fill="none" stroke="#0053fd" stroke-width="1.5" opacity="0.60" transform="rotate(-42)"/>
-    </g>
-
-    <g fill="#0053fd">
-      <circle cx="1221" cy="75" r="7" opacity="0.16"/>
-      <circle cx="1221" cy="75" r="2.6" opacity="0.95"/>
-      <circle cx="1188" cy="228" r="5" opacity="0.13"/>
-      <circle cx="1188" cy="228" r="2" opacity="0.75"/>
-      <circle cx="1066" cy="188" r="6" opacity="0.13"/>
-      <circle cx="1066" cy="188" r="2.2" opacity="0.85"/>
-    </g>
-
-    <g stroke="#0053fd" stroke-width="1.2" opacity="0.65">
-      <path d="M33 40h14M40 33v14"/>
-      <path d="M1233 40h14M1240 33v14"/>
-      <path d="M33 280h14M40 273v14"/>
-      <path d="M1233 280h14M1240 273v14"/>
-    </g>
-
-    <text x="72" y="128" font-family="'Inter','Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="2" fill="#1f2328">RITHEAREACH CHAN</text>
-    <text x="72" y="170" font-family="'Inter','Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="24" font-weight="500" fill="#1f2328" fill-opacity="0.82">Senior AI Engineer — building AI software &amp; solutions</text>
-    <text x="72" y="208" font-family="'Courier Prime',ui-monospace,Menlo,monospace" font-size="15.5" font-weight="700" letter-spacing="1" fill="#656d76">PYTHON · PYTORCH · YOLO · DEEPSTREAM · TENSORRT · LLM AGENTS · MCP · RAG</text>
+    <circle cx="1030" cy="82" r="45" fill="#f0a75a"/>
+    <path d="M0 190 C220 120 380 240 560 165 S880 100 1280 165 V320 H0Z" fill="#9ab9ad"/>
+    <path d="M0 222 C260 155 410 268 650 190 S1000 138 1280 202 V320 H0Z" fill="#497568"/>
+    <path d="M0 270H1280" stroke="#244c44" stroke-width="2" opacity="0.7"/>
+    <path d="M0 286H1280" stroke="#f5f7f3" stroke-width="1" opacity="0.24"/>
+    <text x="72" y="62" font-family="'Courier Prime',ui-monospace,Menlo,monospace" font-size="14" font-weight="700" letter-spacing="2" fill="#244c44">AI ENGINEERING / 2026</text>
+    <text x="72" y="235" font-family="'Inter','Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="50" font-weight="700" letter-spacing="-1" fill="#f5f7f3">RITHEAREACH CHAN</text>
+    <text x="74" y="274" font-family="'Inter','Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="22" font-weight="500" fill="#e2efe9">Senior AI Engineer — building useful intelligence</text>
   </g>
 </svg>
