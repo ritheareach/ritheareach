@@ -20,11 +20,7 @@
     <path d="M0 222 C260 155 410 268 650 190 S1000 138 1280 202 V320 H0Z" fill="#183b38"/>
 
     <!-- quiet landscape details -->
-    <!-- recognizable coconut palm silhouette -->
-    <path d="M1118 220 C1129 190 1141 151 1150 112" fill="none" stroke="#7fb19b" stroke-width="9" stroke-linecap="round"/>
-    <path d="M1150 112 C1119 104 1090 111 1060 132 M1150 112 C1127 91 1107 80 1084 75 M1150 112 C1144 82 1148 59 1158 38 M1150 112 C1163 81 1185 58 1210 45 M1150 112 C1182 101 1211 105 1238 119 M1150 112 C1183 122 1207 141 1225 164" fill="none" stroke="#7fb19b" stroke-width="8" stroke-linecap="round"/>
-    <path d="M1060 132 L1080 117 M1084 75 L1100 88 M1158 38 L1158 59 M1210 45 L1192 67 M1238 119 L1215 116 M1225 164 L1204 142" fill="none" stroke="#7fb19b" stroke-width="4" stroke-linecap="round"/>
-    <circle cx="1150" cy="112" r="9" fill="#31584f"/>
+    <image x="1065" y="72" width="190" height="238" href="data:image/svg+xml;base64,{{PALM}}" preserveAspectRatio="xMidYMax meet"/>
     <path d="M100 154 Q112 142 124 154 Q136 142 148 154" fill="none" stroke="#8fc3aa" stroke-width="3" stroke-linecap="round"/>
     <path d="M770 98 Q780 88 790 98 Q800 88 810 98" fill="none" stroke="#8fc3aa" stroke-width="3" stroke-linecap="round"/>
     <circle cx="1220" cy="226" r="7" fill="#31584f"/>

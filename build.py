@@ -81,6 +81,11 @@ def main() -> None:
         svg = (SRC / name).read_text()
         for token, data in payload.items():
             svg = svg.replace(f"{{{{{token}}}}}", data)
+        palm = (SRC / "palm-source.svg").read_text()
+        palm_color = "#244c44" if "light" in name else "#7fb19b"
+        palm = palm.replace("#000000", palm_color)
+        palm_data = base64.b64encode(palm.encode()).decode()
+        svg = svg.replace("{{PALM}}", palm_data)
         if "{{" in svg:
             raise SystemExit(f"{name}: unreplaced token remains")
         out = ASSETS / name
