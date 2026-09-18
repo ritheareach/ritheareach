@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-    <img src="assets/hero-light.svg" alt="Ritheareach Chan — Senior AI Engineer · AI software & solutions" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-landscape-dark.svg">
+    <img src="assets/hero-landscape-light.svg" alt="Ritheareach Chan — Senior AI Engineer · AI software & solutions" width="100%">
   </picture>
 </p>
 
