@@ -83,6 +83,7 @@ def main() -> None:
             svg = svg.replace(f"{{{{{token}}}}}", data)
         palm = (SRC / "palm-source.svg").read_text()
         palm_color = "#244c44" if "light" in name else "#7fb19b"
+        palm = palm.replace('viewBox="0 0 100 125"', 'viewBox="0 0 100 108"')
         palm = palm.replace("#000000", palm_color)
         palm_data = base64.b64encode(palm.encode()).decode()
         svg = svg.replace("{{PALM}}", palm_data)
