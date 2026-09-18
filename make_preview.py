@@ -92,7 +92,7 @@ TEMPLATE = r"""<!doctype html>
       <img class="avatar" src="__AVATAR__" alt="avatar">
       <div>
         <h1 class="name">Ritheareach CHAN <span class="handle">ritheareach</span></h1>
-        <p class="bio">AI engineer — AI software &amp; solutions: computer vision, AI agents, LLM-driven automation. AI Farm Robotics.</p>
+        <p class="bio">Senior AI Engineer — AI software &amp; solutions: computer vision, AI agents, LLM-driven automation. AI Farm Robotics.</p>
         <div class="meta">
           <span>📍 Phnom Penh</span><span>🏢 AI Farm Robotics</span><span>🔗 aifarm.dev</span>
           <span><b>10</b> repositories</span>
