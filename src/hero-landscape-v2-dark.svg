@@ -9,10 +9,10 @@
   </defs>
   <rect x="0.75" y="0.75" width="1278.5" height="318.5" rx="14" fill="#101d24" stroke="#304942" stroke-width="1.5"/>
   <g clip-path="url(#card)">
-    <circle cx="1030" cy="82" r="45" fill="#d8eee2"/>
-    <circle cx="1012" cy="64" r="7" fill="#abc8bb" opacity="0.60"/>
-    <circle cx="1048" cy="91" r="10" fill="#abc8bb" opacity="0.48"/>
-    <circle cx="1025" cy="105" r="5" fill="#abc8bb" opacity="0.52"/>
+    <circle cx="1030" cy="82" r="58" fill="#d8eee2"/>
+    <circle cx="1007" cy="58" r="9" fill="#abc8bb" opacity="0.60"/>
+    <circle cx="1053" cy="93" r="13" fill="#abc8bb" opacity="0.48"/>
+    <circle cx="1022" cy="112" r="7" fill="#abc8bb" opacity="0.52"/>
     <path d="M0 178 L150 112 L240 166 L360 92 L520 178 Z" fill="#294742" opacity="0.78"/>
     <path d="M184 82 Q204 66 224 82 Q244 66 264 82" fill="none" stroke="#9fc4b2" stroke-width="5" stroke-linecap="round" opacity="0.48"/>
     <path d="M620 118 Q638 104 656 118 Q674 104 692 118" fill="none" stroke="#9fc4b2" stroke-width="4" stroke-linecap="round" opacity="0.40"/>
@@ -21,8 +21,12 @@
 
     <!-- quiet landscape details -->
     <path d="M1122 220 C1130 186 1140 151 1147 119" fill="none" stroke="#183b38" stroke-width="8" stroke-linecap="round"/>
-    <path d="M1147 122 C1122 112 1104 102 1090 88 M1147 122 C1135 98 1134 78 1138 60 M1147 122 C1160 98 1177 82 1196 72 M1147 122 C1174 116 1196 118 1215 126 M1147 122 C1162 132 1174 146 1184 162" fill="none" stroke="#183b38" stroke-width="5" stroke-linecap="round"/>
-    <circle cx="1147" cy="122" r="7" fill="#31584f"/>
+    <path d="M1147 122 Q1110 111 1080 82 Q1119 116 1147 122 Z" fill="#183b38"/>
+    <path d="M1147 122 Q1134 86 1138 52 Q1149 91 1147 122 Z" fill="#183b38"/>
+    <path d="M1147 122 Q1168 85 1202 67 Q1177 103 1147 122 Z" fill="#183b38"/>
+    <path d="M1147 122 Q1184 111 1220 122 Q1183 133 1147 122 Z" fill="#183b38"/>
+    <path d="M1147 122 Q1170 139 1188 171 Q1155 151 1147 122 Z" fill="#183b38"/>
+    <circle cx="1147" cy="122" r="8" fill="#31584f"/>
     <path d="M100 154 Q112 142 124 154 Q136 142 148 154" fill="none" stroke="#8fc3aa" stroke-width="3" stroke-linecap="round"/>
     <path d="M770 98 Q780 88 790 98 Q800 88 810 98" fill="none" stroke="#8fc3aa" stroke-width="3" stroke-linecap="round"/>
     <circle cx="1220" cy="226" r="7" fill="#31584f"/>
