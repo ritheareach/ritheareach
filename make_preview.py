@@ -26,8 +26,8 @@ def main() -> None:
     # markdown -> html (raw HTML blocks pass through)
     body = markdown.markdown(readme, extensions=["tables", "fenced_code", "sane_lists", "md_in_html"])
 
-    dark = data_uri(ROOT / "assets" / "hero-landscape-dark.svg", "image/svg+xml")
-    light = data_uri(ROOT / "assets" / "hero-landscape-light.svg", "image/svg+xml")
+    dark = data_uri(ROOT / "assets" / "hero-landscape-v2-dark.svg", "image/svg+xml")
+    light = data_uri(ROOT / "assets" / "hero-landscape-v2-light.svg", "image/svg+xml")
     avatar = data_uri(AVATAR_CACHE, "image/jpeg") if AVATAR_CACHE.exists() else ""
 
     # swap repo-relative asset paths for the inlined originals

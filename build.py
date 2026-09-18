@@ -22,7 +22,7 @@ ASSETS = ROOT / "assets"
 WORK = ROOT / ".build"
 WORK.mkdir(exist_ok=True)
 
-TEMPLATES = ["hero-landscape-dark.svg", "hero-landscape-light.svg"]
+TEMPLATES = ["hero-landscape-v2-dark.svg", "hero-landscape-v2-light.svg"]
 
 # token -> (source ttf, instance axes or None for a static font)
 FONTS = {
