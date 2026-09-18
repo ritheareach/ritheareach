@@ -20,13 +20,11 @@
     <path d="M0 222 C260 155 410 268 650 190 S1000 138 1280 202 V320 H0Z" fill="#183b38"/>
 
     <!-- quiet landscape details -->
-    <path d="M1122 220 C1130 186 1140 151 1147 119" fill="none" stroke="#183b38" stroke-width="8" stroke-linecap="round"/>
-    <path d="M1147 122 Q1110 111 1080 82 Q1119 116 1147 122 Z" fill="#183b38"/>
-    <path d="M1147 122 Q1134 86 1138 52 Q1149 91 1147 122 Z" fill="#183b38"/>
-    <path d="M1147 122 Q1168 85 1202 67 Q1177 103 1147 122 Z" fill="#183b38"/>
-    <path d="M1147 122 Q1184 111 1220 122 Q1183 133 1147 122 Z" fill="#183b38"/>
-    <path d="M1147 122 Q1170 139 1188 171 Q1155 151 1147 122 Z" fill="#183b38"/>
-    <circle cx="1147" cy="122" r="8" fill="#31584f"/>
+    <!-- recognizable coconut palm silhouette -->
+    <path d="M1118 220 C1129 190 1141 151 1150 112" fill="none" stroke="#7fb19b" stroke-width="9" stroke-linecap="round"/>
+    <path d="M1150 112 C1119 104 1090 111 1060 132 M1150 112 C1127 91 1107 80 1084 75 M1150 112 C1144 82 1148 59 1158 38 M1150 112 C1163 81 1185 58 1210 45 M1150 112 C1182 101 1211 105 1238 119 M1150 112 C1183 122 1207 141 1225 164" fill="none" stroke="#7fb19b" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1060 132 L1080 117 M1084 75 L1100 88 M1158 38 L1158 59 M1210 45 L1192 67 M1238 119 L1215 116 M1225 164 L1204 142" fill="none" stroke="#7fb19b" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="1150" cy="112" r="9" fill="#31584f"/>
     <path d="M100 154 Q112 142 124 154 Q136 142 148 154" fill="none" stroke="#8fc3aa" stroke-width="3" stroke-linecap="round"/>
     <path d="M770 98 Q780 88 790 98 Q800 88 810 98" fill="none" stroke="#8fc3aa" stroke-width="3" stroke-linecap="round"/>
     <circle cx="1220" cy="226" r="7" fill="#31584f"/>
