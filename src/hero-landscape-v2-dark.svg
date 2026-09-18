@@ -18,6 +18,9 @@
     <path d="M620 118 Q638 104 656 118 Q674 104 692 118" fill="none" stroke="#9fc4b2" stroke-width="4" stroke-linecap="round" opacity="0.40"/>
     <path d="M0 190 C220 120 380 240 560 165 S880 100 1280 165 V320 H0Z" fill="#31584f"/>
     <path d="M0 222 C260 155 410 268 650 190 S1000 138 1280 202 V320 H0Z" fill="#183b38"/>
+    <path d="M0 248 C180 235 340 258 520 246 S900 238 1280 250 V320 H0Z" fill="#0e4650"/>
+    <path d="M40 275 Q110 266 180 275 M300 291 Q390 281 480 291 M720 271 Q805 262 890 271 M1010 295 Q1100 285 1190 295" fill="none" stroke="#79b5b0" stroke-width="3" stroke-linecap="round" opacity="0.60"/>
+    <path d="M210 308 Q270 301 330 308 M560 276 Q620 269 680 276 M900 309 Q970 302 1040 309" fill="none" stroke="#2f7379" stroke-width="2" stroke-linecap="round" opacity="0.80"/>
 
     <!-- quiet landscape details -->
     <image x="1065" y="72" width="190" height="238" href="data:image/svg+xml;base64,{{PALM}}" preserveAspectRatio="xMidYMax meet"/>
@@ -27,7 +30,7 @@
     <circle cx="1240" cy="219" r="5" fill="#31584f"/>
 
     <text x="72" y="62" font-family="'Courier Prime',ui-monospace,Menlo,monospace" font-size="14" font-weight="700" letter-spacing="2" fill="#8fc3aa">AI ENGINEERING / 2026</text>
-    <text x="72" y="235" font-family="'Inter','Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="50" font-weight="700" letter-spacing="-1" fill="#f5f7f3">RITHEAREACH CHAN</text>
-    <text x="74" y="274" font-family="'Inter','Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="22" font-weight="500" fill="#d0e7dc">Senior AI Engineer — building useful intelligence</text>
+    <text x="72" y="208" font-family="'Inter','Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="50" font-weight="700" letter-spacing="-1" fill="#f5f7f3">RITHEAREACH CHAN</text>
+    <text x="74" y="242" font-family="'Inter','Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="22" font-weight="500" fill="#d0e7dc">Senior AI Engineer — building useful intelligence</text>
   </g>
 </svg>
