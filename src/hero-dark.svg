@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Ritheareach Chan — Senior AI Engineer · AI software &amp; solutions · Phnom Penh, Cambodia">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Ritheareach Chan — Senior AI Engineer · AI software &amp; solutions">
   <defs>
     <style>
       @font-face{font-family:'Inter';font-style:normal;font-weight:700;src:url(data:font/woff2;base64,{{SANS700}}) format('woff2');}
@@ -48,10 +48,8 @@
       <path d="M1233 280h14M1240 273v14"/>
     </g>
 
-    <rect x="52" y="54" width="4" height="20" rx="2" fill="#4a84fe"/>
-    <text x="72" y="70" font-family="'Courier Prime',ui-monospace,Menlo,monospace" font-size="15.5" font-weight="700" letter-spacing="1" fill="#7d8590">PHNOM PENH, CAMBODIA · 11.5564°N 104.9282°E</text>
-    <text x="72" y="186" font-family="'Inter','Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="2" fill="#e6edf3">RITHEAREACH CHAN</text>
-    <text x="72" y="228" font-family="'Inter','Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="24" font-weight="500" fill="#e6edf3" fill-opacity="0.82">Senior AI Engineer — building AI software &amp; solutions</text>
-    <text x="72" y="266" font-family="'Courier Prime',ui-monospace,Menlo,monospace" font-size="15.5" font-weight="700" letter-spacing="1" fill="#7d8590">PYTHON · PYTORCH · YOLO · DEEPSTREAM · TENSORRT · LLM AGENTS · MCP · RAG</text>
+    <text x="72" y="128" font-family="'Inter','Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="2" fill="#e6edf3">RITHEAREACH CHAN</text>
+    <text x="72" y="170" font-family="'Inter','Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="24" font-weight="500" fill="#e6edf3" fill-opacity="0.82">Senior AI Engineer — building AI software &amp; solutions</text>
+    <text x="72" y="208" font-family="'Courier Prime',ui-monospace,Menlo,monospace" font-size="15.5" font-weight="700" letter-spacing="1" fill="#7d8590">PYTHON · PYTORCH · YOLO · DEEPSTREAM · TENSORRT · LLM AGENTS · MCP · RAG</text>
   </g>
 </svg>
