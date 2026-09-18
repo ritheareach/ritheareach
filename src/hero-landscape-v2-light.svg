@@ -14,9 +14,9 @@
     <path d="M0 222 C260 155 410 268 650 190 S1000 138 1280 202 V320 H0Z" fill="#497568"/>
 
     <!-- quiet landscape details -->
-    <path d="M1118 218 L1130 132 L1142 218 Z" fill="#31584f"/>
-    <path d="M1104 156 L1130 102 L1156 156 L1130 144 Z" fill="#31584f"/>
-    <path d="M1110 128 L1130 82 L1150 128 L1130 118 Z" fill="#497568"/>
+    <path d="M1122 220 C1130 186 1140 151 1147 119" fill="none" stroke="#31584f" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1147 122 C1122 112 1104 102 1090 88 M1147 122 C1135 98 1134 78 1138 60 M1147 122 C1160 98 1177 82 1196 72 M1147 122 C1174 116 1196 118 1215 126 M1147 122 C1162 132 1174 146 1184 162" fill="none" stroke="#31584f" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="1147" cy="122" r="7" fill="#497568"/>
     <path d="M100 154 Q112 142 124 154 Q136 142 148 154" fill="none" stroke="#497568" stroke-width="3" stroke-linecap="round"/>
     <path d="M770 98 Q780 88 790 98 Q800 88 810 98" fill="none" stroke="#497568" stroke-width="3" stroke-linecap="round"/>
     <circle cx="1220" cy="226" r="7" fill="#9ab9ad"/>
