@@ -10,6 +10,9 @@
   <rect x="0.75" y="0.75" width="1278.5" height="318.5" rx="14" fill="#101d24" stroke="#304942" stroke-width="1.5"/>
   <g clip-path="url(#card)">
     <circle cx="1030" cy="82" r="45" fill="#e8a45b"/>
+    <path d="M0 178 L150 112 L240 166 L360 92 L520 178 Z" fill="#294742" opacity="0.78"/>
+    <path d="M184 82 Q204 66 224 82 Q244 66 264 82" fill="none" stroke="#9fc4b2" stroke-width="5" stroke-linecap="round" opacity="0.48"/>
+    <path d="M620 118 Q638 104 656 118 Q674 104 692 118" fill="none" stroke="#9fc4b2" stroke-width="4" stroke-linecap="round" opacity="0.40"/>
     <path d="M0 190 C220 120 380 240 560 165 S880 100 1280 165 V320 H0Z" fill="#31584f"/>
     <path d="M0 222 C260 155 410 268 650 190 S1000 138 1280 202 V320 H0Z" fill="#183b38"/>
 
