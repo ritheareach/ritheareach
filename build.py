@@ -3,8 +3,8 @@
 
 Style: Nous (Hermes desktop theme) — GitHub neutrals + Nous blue.
 Fonts:  Inter (sans) + Courier Prime (mono), both OFL, embedded as subsets.
-Inputs:  src/hero-dark.svg, src/hero-light.svg  ({{SANS700}}/{{SANS500}}/{{MONO400}})
-Outputs: assets/hero-dark.svg, assets/hero-light.svg
+Inputs:  src/hero-landscape-dark.svg, src/hero-landscape-light.svg
+Outputs: assets/hero-landscape-dark.svg, assets/hero-landscape-light.svg
 """
 import base64
 import html
@@ -22,7 +22,7 @@ ASSETS = ROOT / "assets"
 WORK = ROOT / ".build"
 WORK.mkdir(exist_ok=True)
 
-TEMPLATES = ["hero-dark.svg", "hero-light.svg"]
+TEMPLATES = ["hero-landscape-dark.svg", "hero-landscape-light.svg"]
 
 # token -> (source ttf, instance axes or None for a static font)
 FONTS = {

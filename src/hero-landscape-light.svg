@@ -13,6 +13,15 @@
     <path d="M0 190 C220 120 380 240 560 165 S880 100 1280 165 V320 H0Z" fill="#9ab9ad"/>
     <path d="M0 222 C260 155 410 268 650 190 S1000 138 1280 202 V320 H0Z" fill="#497568"/>
 
+    <!-- quiet landscape details -->
+    <path d="M1118 218 L1130 132 L1142 218 Z" fill="#31584f"/>
+    <path d="M1104 156 L1130 102 L1156 156 L1130 144 Z" fill="#31584f"/>
+    <path d="M1110 128 L1130 82 L1150 128 L1130 118 Z" fill="#497568"/>
+    <path d="M100 154 Q112 142 124 154 Q136 142 148 154" fill="none" stroke="#497568" stroke-width="3" stroke-linecap="round"/>
+    <path d="M770 98 Q780 88 790 98 Q800 88 810 98" fill="none" stroke="#497568" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="1220" cy="226" r="7" fill="#9ab9ad"/>
+    <circle cx="1240" cy="219" r="5" fill="#9ab9ad"/>
+
     <text x="72" y="62" font-family="'Courier Prime',ui-monospace,Menlo,monospace" font-size="14" font-weight="700" letter-spacing="2" fill="#244c44">AI ENGINEERING / 2026</text>
     <text x="72" y="235" font-family="'Inter','Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="50" font-weight="700" letter-spacing="-1" fill="#f5f7f3">RITHEAREACH CHAN</text>
     <text x="74" y="274" font-family="'Inter','Segoe UI',-apple-system,Helvetica,Arial,sans-serif" font-size="22" font-weight="500" fill="#e2efe9">Senior AI Engineer — building useful intelligence</text>
